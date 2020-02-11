@@ -1,9 +1,9 @@
 import React from 'react';
-import './TestMe.scss';
-import QuizForm from '../QuizForm/QuizForm';
-import Title from '../shared/Title/Title';
+import './TestMePage.scss';
+import QuizForm from '../../components/QuizForm/QuizForm';
+import Title from '../../components/shared/Title/Title';
 
-function TestMe({match}) {
+function TestMePage({match}) {
   
   return (  
       <div className="test-me-container">
@@ -13,4 +13,4 @@ function TestMe({match}) {
   );
 }
 
-export default TestMe;
+export default TestMePage;
