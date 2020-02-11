@@ -31,7 +31,10 @@ function Card({facts, cont, totalFacts, setCont}) {
         {cont > 0 && 
         <div className="fact-card-container__wrapper">
           <img onClick={() => showFact(totalFacts, cont, setCont) } className="fact-card-container__img-star" src={star} alt="star"/>
-          {(cont === 1 && totalFacts !== 1) && <p className="fact-card-container__click-me">Click me to see next fact!</p>}    
+          {(cont === 1 && totalFacts !== 1) && <p className="fact-card-container__click-me">
+           Click me to see next fact!
+           <span><i class="fas fa-arrow-right"></i></span>
+           </p>}    
         </div>}
 
           <p className="fact-card-container__clickable-text">{cont} / {totalFacts}</p>

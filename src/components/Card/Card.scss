@@ -29,9 +29,10 @@
     }
 
     &__click-me {
-        bottom: -10%;
+        top: 40%;
         position: absolute;
         width: max-content;
+        left: -130%;
     }
 
     &__img-star {
@@ -47,4 +48,8 @@
         font-size: 2rem;
         color: $font-contrast;
     }
+}
+
+.fa-arrow-right {
+    margin-left: 0.5rem;
 }

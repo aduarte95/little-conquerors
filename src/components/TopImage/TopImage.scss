@@ -4,6 +4,18 @@
         position: relative;
         max-width: 25%;
         min-width: 15%;
+
+        &:hover {
+            &::after {
+                position: absolute;
+                content: 'Click me';
+                top: 20%;
+                left: 0;
+                background: rgba(0, 0, 0, 0.726);
+                padding: 10px;
+                border-radius: 7px;
+            }
+        }
     }
 
     &__img {    
@@ -16,11 +28,10 @@
             transform: scale(1.2,1.2);
             transition: 0.5s;
         }
+
+        
     }
 
     &__click-me {
-        position: absolute;
-        top: 20%;
-        left: 0;
     }
 }
