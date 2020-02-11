@@ -14,5 +14,13 @@
 
 .info-chart-appear.info-chart-appear-active {
     opacity: 1;
-    transition: opacity 1s ease-in;
+    transition: opacity 5s ease-in;
 }
+
+.info-chart-exit {
+    opacity: 1;
+  }
+  .info-chart-exit.info-chart-exit-active {
+    opacity: 0.01;
+    transition: opacity 1s ease-in;
+  }
