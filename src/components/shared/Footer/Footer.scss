@@ -3,9 +3,27 @@
 .footer-container {
     height: $footer-height;
     margin-top: $footer-margin-top;
+    font-size: .9rem !important;
+    
+    &__icon {
+        color: rgba(255,255,255,.5) !important;
+        font-size: .9rem !important;
+        margin-top: -10px;
 
-    &__icons {
-        border-top: solid #212529;
-        width: 50%;
+        &:hover {
+            color: $primary !important;
+        }
+    }
+
+    &__contact {
+        text-align: center;
+    }
+}
+
+.nav-link {
+    color: rgba(255,255,255,.5);
+
+    &:hover {
+        color: $primary !important;
     }
 }

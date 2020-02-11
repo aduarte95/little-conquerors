@@ -17,7 +17,7 @@ function CoolSitesPage() {
 
   return (
     <div className="cool-sites-container d-flex flex-column container">
-        <Title>Here are some sites you will love! <i className="fas fa-heart"></i> </Title>
+        <Title>Learning is fun!</Title>
         <div className="cool-sites-container__carousel d-flex flex-grow-1 ">
             <Carousel
                 additionalTransfrom={0}

@@ -20,7 +20,7 @@ function HomePage() {
       </InfoChart>
       <SolarSystemContainer />
 
-      <Link className="test-me-button btn home-container__float-btn primary-button" to="test-me"> Test me up! </Link>
+      <Link className="test-me-button btn home-container__float-btn primary-button" to="test-me"> Test me! </Link>
     </div> 
   );
 }

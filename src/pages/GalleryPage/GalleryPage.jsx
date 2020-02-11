@@ -24,6 +24,7 @@ const [viewerIsOpen, setViewerIsOpen] = useState(false);
   const [nasaPhotos, setNasaPhotos] = useState([]);
     
      useEffect(() => {
+      const abortController = new AbortController();
       const random = [{width: 1, height: 1}, {width: 4, height: 3}]
       const start = new Date();
       var startTemp = new Date();
@@ -34,7 +35,6 @@ const [viewerIsOpen, setViewerIsOpen] = useState(false);
         axios.get(`https://api.nasa.gov/planetary/apod?date=${new Date(loop.getTime() - (start.getTimezoneOffset() * 60000 )).toISOString().split("T")[0]}&api_key=CukV5eprkpPGgtJmS5HYDHXPvyZXExupk716UlB0`)
         .then(  response => {
           if(response.data.media_type !== 'video') {
-            console.log(response)
             setNasaPhotos(oldArray => [...oldArray, {src: response.data.url, ...random[1]}]);   
           }         
         });    
@@ -42,6 +42,10 @@ const [viewerIsOpen, setViewerIsOpen] = useState(false);
         var newDate = loop.setDate(loop.getDate() - 1);
         loop = new Date(newDate);
       } 
+
+      return () => {
+        abortController.abort();
+      };
       
     }, []);
 

@@ -15,7 +15,7 @@ function App() {
       <Navbar/>
       <div className="app-container">
         <Switch>
-          <Route path="/cool-sites" component={props => <CoolSitesPage {...props}/>}  />
+          <Route path="/exercises" component={props => <CoolSitesPage {...props}/>}  />
           <Route path="/gallery" component={props => <GalleryPage {...props}/>}  />
           <Route path="/test-me" component={props => <TestMe {...props}/>}  />
           <Route path="/solar-system-member/:id" component={props => <MemberDetail {...props}/>}  />

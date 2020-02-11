@@ -24,7 +24,7 @@ html, body {
 .primary-button {
     color: $secondary;
     background: linear-gradient(to right, $contrast-color 50%, $primary 50%);
-    background-size: 200% 100%;
+    background-size: 250% 100%;
     background-position: right bottom;
     font-weight: bolder;
     transition: background-position .5s ease-in-out;
@@ -65,10 +65,6 @@ html, body {
 
 .primary-background {
   background-color: $background;
-}
-
-.error {
-
 }
 
 @media (max-width: 992px) {

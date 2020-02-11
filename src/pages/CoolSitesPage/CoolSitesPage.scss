@@ -29,6 +29,10 @@
         -webkit-line-clamp: 3;  
         -webkit-box-orient: vertical; 
     }
+
+    &__icon {
+        font-size: 1.8rem;
+    }
 }
 
 /*Override of react-bootstrap library*/
