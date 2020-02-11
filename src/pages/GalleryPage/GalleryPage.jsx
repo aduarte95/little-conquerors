@@ -75,7 +75,7 @@ const [viewerIsOpen, setViewerIsOpen] = useState(false);
               ) : null}
             </ModalGateway>
         </div>
-        ) : <div className="error">
+        ) : <div className="error d-flex justify-content-center align-items-center">
               <p> Oh no! There's a problem loading the NASA's awesome photos. Try again later.</p>
             </div>}
         </div>
