@@ -45,7 +45,12 @@
         "description": "",
         "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/17_earth.png",
         "facts": [
-            "Lorem ipsum dolor sit amet"
+            "The Earth's rotation is gradually slowing.",
+            "The Earth was once believed to be the centre of the universe.",
+            "Earth has a powerful magnetic field.",
+            "There is only one natural satellite of the planet Earth.",
+            "Earth is the only planet not named after a god.",
+            "The Earth is the densest planet in the Solar System."
         ]
     },
     {

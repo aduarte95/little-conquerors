@@ -15,10 +15,32 @@
         "id": 2,
         "label": "What is the second brightest thing in the sky?",
         "answers": [
-            {"id": 6, "answer": "Sirio"},
+            {"id": 6, "answer": "Sirius"},
             {"id": 7, "answer": "Venus"},
             {"id": 8, "answer": "Moon"}
         ],
         "correctAnswer": 7
+    },
+    {
+        "id": 3,
+        "label": "What is the densest planet in the Solar System?",
+        "answers": [
+            {"id": 9, "answer": "Mars"},
+            {"id": 10, "answer": "Venus"},
+            {"id": 11, "answer": "Earth"},
+            {"id": 12, "answer": "Saturn"}
+        ],
+        "correctAnswer": 11
+    },
+    {
+        "id": 4,
+        "label": "How many Mars missions have been successful?",
+        "answers": [
+            {"id": 13, "answer": "39"},
+            {"id": 14, "answer": "16"},
+            {"id": 15, "answer": "15"},
+            {"id": 16, "answer": "1"}
+        ],
+        "correctAnswer": 14
     }
 ]

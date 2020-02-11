@@ -31,7 +31,6 @@ function QuizForm() {
 
     setScore((score/totalNumQuestions)*100);
     setShowScore(true);
-    
   }
 
   function setAnswers(e) {
@@ -41,7 +40,7 @@ function QuizForm() {
     const id = e.target.id;
     var answer = id.split("-");
     
-    setSelectedAnswers( oldObject => ({...oldObject[0], [question[1]]: answer[1]}))
+    setSelectedAnswers( oldObject => ({...oldObject, [question[1]]: answer[1]}))
   }
 
   function resetQuiz() {
@@ -57,9 +56,9 @@ function QuizForm() {
     if(score <= 65) {
       setScoreText(scoreTexts[2])
     } else if(score === 100) {
-      setScoreText(scoreTexts[1])
-    } else {
       setScoreText(scoreTexts[0])
+    } else {
+      setScoreText(scoreTexts[1])
     }
     
    
