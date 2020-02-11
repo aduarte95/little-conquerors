@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "label": "How big is the sun?",
+        "answers": [
+                {"id": 1, "answer": "Lorem ipsum dolor sit amet"},
+                {"id": 2, "answer": "Lorem ipsum dolor sit amet"},
+                {"id": 3, "answer": "Lorem ipsum dolor sit amet"},
+                {"id": 4, "answer": "Lorem ipsum dolor sit amet"},
+                {"id": 5, "answer": "Lorem ipsum dolor sit amet"}
+            ],
+            "correctAnswer": 1
+    },
+    {
+        "id": 2,
+        "label": "How big is the sun?",
+        "answers": [
+            {"id": 6, "answer": "Lorem ipsum dolor sit amet"},
+            {"id": 7, "answer": "Lorem ipsum dolor sit amet"},
+            {"id": 8, "answer": "Lorem ipsum dolor sit amet"}
+        ],
+        "correctAnswer": 7
+    }
+]

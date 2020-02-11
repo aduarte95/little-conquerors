@@ -1,0 +1,45 @@
+@import '../../assets/styles/variables';
+
+.fact-card-container {
+    &__row {
+        width: 30%;
+    }
+    &__col {
+        padding: 0;
+    }
+    &__text {
+        margin: 0;
+        color: white;
+        text-align: justify;
+    }
+
+    &__row {
+        margin: 2rem;
+        padding: 2rem;
+    }
+
+    &__bullet {
+        text-shadow: 0 0 20px #fff, 0 0 7px #fff, 0 0 40px #8a00e6, 0 0 40px #002ae6, 0 0 30px #8a00e6;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    &__clickable-star {
+        font-weight: bold;
+        width: 100%;
+    }
+
+    &__img-star {
+        width: 10%;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__clickable-text {
+        margin: 0;
+        font-size: 2rem;
+        color: $font-contrast;
+    }
+}

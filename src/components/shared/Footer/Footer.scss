@@ -1,0 +1,11 @@
+@import '../../../assets/styles/variables';
+
+.footer-container {
+    height: $footer-height;
+    margin-top: $footer-margin-top;
+
+    &__icons {
+        border-top: solid #212529;
+        width: 50%;
+    }
+}

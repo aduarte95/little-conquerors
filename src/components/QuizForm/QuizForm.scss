@@ -1,0 +1,57 @@
+@import '../../assets/styles/variables';
+
+.quiz-container {
+    text-transform: capitalize;
+    color: white;
+    width: max-content;
+    padding: 2rem;
+    margin-top: 3rem;
+
+    &__decorator-img {
+        position: absolute;
+        margin-left: -115px;
+    }
+
+    &__label {
+        font-size: 2rem;
+        color: $font-contrast;
+    }
+}
+
+.form-check-input {
+    position: initial;
+    margin-top: .3rem;
+    margin-left: 0;
+    margin-right: 1.25rem;
+}
+
+.score-container {
+    width: 50%;
+    color: white;
+    padding: 2rem;
+    margin: 2rem 0;
+
+    &__score {
+        font-size: 5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+        &__score {
+          animation: glow-in-motion 1.5s ease-in-out infinite alternate;
+        }
+      }
+
+    
+}
+
+@keyframes glow-in-motion {
+    from {
+        text-shadow: 0 0 20px #fff;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 7px #fff, 0 0 40px #8a00e6, 0 0 40px #002ae6, 0 0 30px #8a00e6
+      }
+}

@@ -1,0 +1,120 @@
+[
+    {
+        "id": 1,
+        "name": "sun",
+        "description": "",
+        "imgUrl": "https://i.imgur.com/6ugsu9J.png",
+        "facts": [
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "mercury",
+        "description": "",
+        "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/18_mercury_new.png",
+        "facts": [
+            {
+                "fact": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, "
+            },
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            },
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            },
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            },
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            },
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            },
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "venus",
+        "description": "",
+        "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/27_venus_jg.png",
+        "facts": [
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "earth",
+        "description": "",
+        "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/17_earth.png",
+        "facts": [
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "mars",
+        "description": "",
+        "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/19_mars.png",
+        "facts": [
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "jupiter",
+        "description": "",
+        "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/16_jupiter_new.png",
+        "facts": [
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "saturn",
+        "description": "",
+        "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/28_saturn.png",
+        "facts": [
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "uranus",
+        "description": "",
+        "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/29_uranus.png",
+        "facts": [
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            }
+        ]
+    
+    },
+    {
+        "id": 9,
+        "name": "neptune",
+        "description": "",
+        "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/30_neptune.png",
+        "facts": [
+            {
+                "fact": "Lorem ipsum dolor sit amet"
+            }
+        ]
+    }
+]
