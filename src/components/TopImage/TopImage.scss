@@ -1,7 +1,26 @@
 .top-img-container {
 
-    &__img {
+    &__wrapper {
+        position: relative;
         max-width: 25%;
         min-width: 15%;
+    }
+
+    &__img {    
+        width: 100%;
+        cursor: pointer;
+
+        transition: 0.5s;
+        
+        &:hover {
+            transform: scale(1.2,1.2);
+            transition: 0.5s;
+        }
+    }
+
+    &__click-me {
+        position: absolute;
+        top: 20%;
+        left: 0;
     }
 }

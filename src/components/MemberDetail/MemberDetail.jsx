@@ -20,11 +20,11 @@ function MemberDetail({match}) {
 
                         <div className="member-container__info">
                             <InfoChart className="member-container__info-chart">
-                                Click the star and discover amazing facts about <span className="member-container__member-name">{member.name}</span>
+                                Click <span className="member-container__member-name">{member.name}</span> and discover amazing facts about it!
                             </InfoChart>
                         </div>
 
-                        <TopImage member={member}/>
+                        <TopImage member={member} totalFacts={totalFacts} setCont={setCont} cont={cont}/>
 
                         <DidYouKnow member={member} totalFacts={totalFacts} setCont={setCont} cont={cont}/>
                     </div>
