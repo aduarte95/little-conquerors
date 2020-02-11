@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage'
 import MemberDetail from './components/MemberDetail/MemberDetail';
 import Footer from './components/shared/Footer/Footer';
-import TestMe from './components/TestMe/TestMe';
+import TestMePage from './pages/TestMePage/TestMePage';
 import GalleryPage from './pages/GalleryPage/GalleryPage';
 import CoolSitesPage from './pages/CoolSitesPage/CoolSitesPage';
 
@@ -17,7 +17,7 @@ function App() {
         <Switch>
           <Route path="/multimedia" component={props => <CoolSitesPage {...props}/>}  />
           <Route path="/gallery" component={props => <GalleryPage {...props}/>}  />
-          <Route path="/test-me" component={props => <TestMe {...props}/>}  />
+          <Route path="/test-me" component={props => <TestMePage {...props}/>}  />
           <Route path="/solar-system-member/:id" component={props => <MemberDetail {...props}/>}  />
           <Route path="/" component={props => <HomePage/>}  />
         </Switch>
