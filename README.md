@@ -1,6 +1,6 @@
 ### Little Conquerors
 
-This project is an educative app for kids to learn awesome facts about our Solar System.
+This project is an educational app for kids to learn awesome facts about our Solar System.
 
 ## Technologies
 
