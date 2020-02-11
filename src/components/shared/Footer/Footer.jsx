@@ -8,7 +8,7 @@ function Footer() {
        <div className="footer-container__link d-flex justify-content-center">
         <Link to="/" className="nav-link">Home</Link>
         <Link to="/gallery" className="nav-link">Gallery</Link>
-        <Link to="/exercises" className="nav-link">Exercises</Link>
+        <Link to="/multimedia" className="nav-link">Multimedia</Link>
       </div>
       <div className="footer-container__icons d-flex justify-content-center">
 
@@ -32,7 +32,7 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"  
         href=" https://www.instagram.com/alecsa95/?hl=es-la"
-        className="footer-container__icon navbar-brand">
+        className="footer-container__icon insta navbar-brand">
           <i className="fab fa-instagram"></i>
         </a>
 

@@ -1,23 +1,23 @@
 [
     {
         "id": 1,
-        "name": "sun",
-        "description": "Let's learn",
-        "imgUrl": "https://i.pinimg.com/originals/41/6b/e9/416be9acd9944243b4a37261f77fa395.png",
-        "url":"https://www.nasa.gov/kidsclub/index.html" 
+        "name": "Space Tech Funpad",
+        "description": "Through sustained investments in technology, NASA is making a difference in the world around us. NASA technology investments in space exploration, science, and aeronautics is making it possible for us to learn more about our planet and outer space. Many of these technologies can also be found improving your daily life.",
+        "imgUrl": "https://i.pinimg.com/originals/f2/14/ef/f214ef17c2c748bf6474c2ffa6573cae.png",
+        "url":"https://www.nasa.gov/sites/default/files/atoms/files/space_tech_funpad_tagged.pdf" 
     },
     {
-        "id": 1,
-        "name": "sun",
-        "description": "Let's learn",
-        "imgUrl": "https://66.media.tumblr.com/2fb5d62e11f684411f6805179b6dc608/tumblr_oik612SH651skktngo1_640.gifv",
-        "url": "https://spaceplace.nasa.gov/sp/"
+        "id": 2,
+        "name": "Search for Spinoffs",
+        "description": "Have fun and learn in this awesome game.",
+        "imgUrl": "https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/edu_srch_search_for_spinoffs_nkc_game.png",
+        "url": "https://www.nasa.gov/kidsclub/flash/games/level4/Spinoffs_Hidden_Pictures.html"
     },
     {
-        "id": 1,
-        "name": "sun",
-        "description": "Let's learn, Let's learn, Let's learn, Let's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learnLet's learn",
+        "id": 3,
+        "name": "Paxi's posters",
+        "description": "Download awesome Paxi's posters",
         "imgUrl": "https://gaptain.com/blog/wp-content/uploads/2018/12/esa-kids.jpg",
-        "url": "https://www.esa.int/kids/es/Home"
+        "url": "https://www.esa.int/kids/es/Multimedia/Descargas/Posteres_de_Paxi"
     }
 ]

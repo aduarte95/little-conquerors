@@ -36,7 +36,7 @@ function Navbar() {
           </li>
 
           <li className="nav-item">
-            <NavLink activeClassName="selected-link" to="/exercises" className="nav-link"> Exercises </NavLink>
+            <NavLink activeClassName="selected-link" to="/multimedia" className="nav-link"> Multimedia </NavLink>
           </li>
         </ul>
       </div>
