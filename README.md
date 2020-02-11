@@ -4,6 +4,7 @@ This project is an educational app for kids to learn awesome facts about our Sol
 
 ## Technologies
 
+- Heroku
 - Hooks
 - Bootstrap
 - Fontawesome
