@@ -5,9 +5,12 @@
         "description": "",
         "imgUrl": "https://i.imgur.com/6ugsu9J.png",
         "facts": [
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            }
+            "The Sun accounts for 99.86% of the mass in the solar system.",
+            "Over one million Earth's could fit inside the Sun.",
+            "One day the Sun will consume the Earth.",
+            "The energy created by the Sun's core is nuclear fusion.",
+            "The Sun is almost a perfect sphere.",
+            "The Sun is travelling at 220 km per second."
         ]
     },
     {
@@ -16,27 +19,11 @@
         "description": "",
         "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/18_mercury_new.png",
         "facts": [
-            {
-                "fact": "Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, "
-            },
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            },
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            },
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            },
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            },
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            },
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            }
+                    "A year in Mercury is 88 days, yet a Mercury day is 176 Earth days. ",
+                    "Mercury orbits so quickly around the Sun that early civilizations believed it was actually two different stars.",
+                    "Mercury is the smallest planet in the solar system",
+                    "After the Earth, Mercury is the second densest planet.",
+                    "Mercury is named after the messenger of the Roman gods"
         ]
     },
     {
@@ -45,9 +32,11 @@
         "description": "",
         "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/27_venus_jg.png",
         "facts": [
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            }
+            "Venus is the second brightest natural object in the sky.",
+            "Venus is sometimes referred to as the “morning star” and “evening star”.",
+            "One day on Venus is longer than one year.",
+            "Venus is named after the Roman goddess of love and beauty.",
+            "Venus is sometimes called Earth's sister planet."
         ]
     },
     {
@@ -56,9 +45,7 @@
         "description": "",
         "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/17_earth.png",
         "facts": [
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            }
+            "Lorem ipsum dolor sit amet"
         ]
     },
     {
@@ -67,9 +54,11 @@
         "description": "",
         "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/19_mars.png",
         "facts": [
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            }
+            "The planet is named after Mars, the Roman god of war.",
+            "The landmass of Mars and Earth is very similar.",
+            "Only 16 of the 39 Mars missions have been successful.",
+            "Pieces of Mars have been found on Earth.",
+            "The tallest mountain known in the solar system is on Mars."
         ]
     },
     {
@@ -78,9 +67,14 @@
         "description": "",
         "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/16_jupiter_new.png",
         "facts": [
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            }
+            "Jupiter Is Massive:",
+            "Jupiter Cannot Become A Star:",
+            "Jupiter Is The Fastest Spinning Planet In The Solar System",
+            "The Clouds On Jupiter Are Only 50 km Thick",
+            "The Great Red Spot Has Been Around For A Long Time",
+            "Jupiter Has Rings",
+            "Jupiter's Magnetic Field Is 14 Times Stronger Than Earth's",
+            "Jupiter Has 67 Moons"
         ]
     },
     {
@@ -89,9 +83,11 @@
         "description": "",
         "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/28_saturn.png",
         "facts": [
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            }
+            "Saturn can be seen with the naked eye.",
+            "Saturn is the flattest planet.",
+            "Saturn orbits the Sun once every 29.4 Earth years.",
+            "Saturn’s upper atmosphere is divided into bands of clouds.",
+            "Saturn has 150 moons and smaller moonlets."
         ]
     },
     {
@@ -100,9 +96,11 @@
         "description": "",
         "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/29_uranus.png",
         "facts": [
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            }
+            "Uranus was officially discovered by Sir William Herschel in 1781.",
+            "Uranus turns on its axis once every 17 hours, 14 minutes.",
+            "Uranus makes one trip around the Sun every 84 Earth years.",
+            "Uranus is often referred to as an “ice giant” planet.",
+            "Uranus hits the coldest temperatures of any planet."
         ]
     
     },
@@ -112,9 +110,11 @@
         "description": "",
         "imgUrl": "https://solarsystem.nasa.gov/system/feature_items/images/30_neptune.png",
         "facts": [
-            {
-                "fact": "Lorem ipsum dolor sit amet"
-            }
+            "Neptune is the most distant planet from the Sun.",
+            "Neptune is the smallest gas giant.",
+            "A year on Neptune lasts 165 Earth years.",
+            "Neptune is named after the Roman god of the sea.",
+            "Neptune has 6 faint rings."
         ]
     }
 ]

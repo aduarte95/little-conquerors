@@ -21,7 +21,7 @@ function Card({facts, cont, totalFacts, setCont}) {
          return  cont > i && <div key={`fact-card-${i}`} className="fact-card-container__row glowing-box">
                     
                         <div className="d-flex justify-content-center">
-                            <p className="fact-card-container__text" key={`fact-${i}`}>{fact.fact}</p>
+                            <p className="fact-card-container__text" key={`fact-${i}`}>{fact}</p>
                         </div>
                 </div>
           })

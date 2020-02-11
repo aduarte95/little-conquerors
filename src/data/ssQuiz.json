@@ -1,23 +1,23 @@
 [
     {
         "id": 1,
-        "label": "How big is the sun?",
+        "label": "How many Earths can fit inside the Sun?",
         "answers": [
-                {"id": 1, "answer": "Lorem ipsum dolor sit amet"},
-                {"id": 2, "answer": "Lorem ipsum dolor sit amet"},
-                {"id": 3, "answer": "Lorem ipsum dolor sit amet"},
-                {"id": 4, "answer": "Lorem ipsum dolor sit amet"},
-                {"id": 5, "answer": "Lorem ipsum dolor sit amet"}
+                {"id": 1, "answer": "One"},
+                {"id": 2, "answer": "Five millions"},
+                {"id": 3, "answer": "One million"},
+                {"id": 4, "answer": "Ten"},
+                {"id": 5, "answer": "Zero"}
             ],
-            "correctAnswer": 1
+            "correctAnswer": 3
     },
     {
         "id": 2,
-        "label": "How big is the sun?",
+        "label": "What is the second brightest thing in the sky?",
         "answers": [
-            {"id": 6, "answer": "Lorem ipsum dolor sit amet"},
-            {"id": 7, "answer": "Lorem ipsum dolor sit amet"},
-            {"id": 8, "answer": "Lorem ipsum dolor sit amet"}
+            {"id": 6, "answer": "Sirio"},
+            {"id": 7, "answer": "Venus"},
+            {"id": 8, "answer": "Moon"}
         ],
         "correctAnswer": 7
     }
