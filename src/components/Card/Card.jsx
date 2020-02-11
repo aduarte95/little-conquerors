@@ -19,9 +19,6 @@ function Card({facts, cont, totalFacts, setCont}) {
       <div  className="d-flex justify-content-center flex-wrap">
       { facts && facts.map( (fact, i) => {
          return  cont > i && <div key={`fact-card-${i}`} className="fact-card-container__row glowing-box">
-                        <div className="fact-card-container__bullet margin-bottom d-flex justify-content-center">
-                          <i class="far fa-star"></i>
-                        </div>
                     
                         <div className="d-flex justify-content-center">
                             <p className="fact-card-container__text" key={`fact-${i}`}>{fact.fact}</p>
@@ -30,8 +27,14 @@ function Card({facts, cont, totalFacts, setCont}) {
           })
         }
         <div ref={div} className="fact-card-container__clickable-star d-flex align-items-center justify-content-center ">
-            <img onClick={() => showFact(totalFacts, cont, setCont) } className="fact-card-container__img-star" src={star} alt="star"/>
-            <p className="fact-card-container__clickable-text">{cont} / {totalFacts}</p>
+        
+        {cont > 0 && 
+        <div className="fact-card-container__wrapper">
+          <img onClick={() => showFact(totalFacts, cont, setCont) } className="fact-card-container__img-star" src={star} alt="star"/>
+          {(cont === 1 && totalFacts !== 1) && <p className="fact-card-container__click-me">Click me to see next fact!</p>}    
+        </div>}
+
+          <p className="fact-card-container__clickable-text">{cont} / {totalFacts}</p>
         </div>
       </div>  
     </div>

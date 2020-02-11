@@ -18,19 +18,24 @@
         padding: 2rem;
     }
 
-    &__bullet {
-        text-shadow: 0 0 20px #fff, 0 0 7px #fff, 0 0 40px #8a00e6, 0 0 40px #002ae6, 0 0 30px #8a00e6;
-        color: white;
-        font-size: 1.5rem;
-    }
-
     &__clickable-star {
         font-weight: bold;
         width: 100%;
     }
 
-    &__img-star {
+    &__wrapper{
+        position: relative;
         width: 10%;
+    }
+
+    &__click-me {
+        bottom: -10%;
+        position: absolute;
+        width: max-content;
+    }
+
+    &__img-star {
+        width: 100%;
 
         &:hover {
             cursor: pointer;
