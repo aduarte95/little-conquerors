@@ -9,7 +9,7 @@ function HomePage() {
   
   return (
     <div className="home-container">
-      <Title> Our Solar System
+      <Title className="home-container__title"> Our Solar System
           <span>
               <img className="home-container__title-img" alt="Solar System" src="https://static.thenounproject.com/png/2922433-84.png"/>
           </span>

@@ -25,7 +25,17 @@
 		&__info-chart {
 			right: 10%;
 			min-width: 328px;
-			margin-top: 7%;
+			margin-top: 25%;
 		}
+
+		&__title {
+			position: relative;
+			z-index: 1;
+		}
+	}
+
+	.navbar {
+		position: relative;
+		z-index: 1;
 	}
 }
