@@ -16,7 +16,7 @@ function Card({facts, cont, totalFacts, setCont}) {
 
   return (   
     <div className="fact-card-container container-fluid py-3">
-      <div  className="d-flex justify-content-center flex-wrap">
+      <div  className="d-flex justify-content-center flex-wrap fact-card-container__inner-container">
       { facts && facts.map( (fact, i) => {
          return  cont > i && <div key={`fact-card-${i}`} className="fact-card-container__row glowing-box">
                     
@@ -33,7 +33,7 @@ function Card({facts, cont, totalFacts, setCont}) {
           <img onClick={() => showFact(totalFacts, cont, setCont) } className="fact-card-container__img-star" src={star} alt="star"/>
           {(cont === 1 && totalFacts !== 1) && <p className="fact-card-container__click-me">
            Click me to see next fact!
-           <span><i class="fas fa-arrow-right"></i></span>
+           <span><i className="fas fa-arrow-right"></i></span>
            </p>}    
         </div>}
 
