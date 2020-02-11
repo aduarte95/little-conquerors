@@ -1,0 +1,74 @@
+@import './assets/styles/variables';
+
+html, body {
+  margin: 0;
+  color: $primary;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app-container {
+  /* 140px stands for = footer height: 43px + footer margin-top: 25px + navbar-height:56px + title top margin: 16px */
+  min-height: $min-height;
+}
+
+.glowing {
+  &-box {
+    border: 2px solid #ffffff;
+    border-radius: 7px;
+    outline: none;
+    border-color: #ffffff;
+    box-shadow: 0 0 5px #ffffff;
+  }
+}
+
+.primary-button {
+    color: $secondary;
+    background: linear-gradient(to right, $contrast-color 50%, $primary 50%);
+    background-size: 250% 100%;
+    background-position: right bottom;
+    font-weight: bolder;
+    transition: background-position .5s ease-in-out;
+    border: 1px solid black;
+    display: block;
+  
+      &:hover {
+          background-position: left bottom;
+          color: $primary;
+          font-weight: normal;
+          transition: color background-position .5s ease-in;
+  
+      }
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+.font-contrast {
+  color: $font-contrast;
+}
+
+.margin-top {
+  margin-top: 2rem;
+}
+
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+
+.margin-bottom-1 {
+  margin-bottom: 1rem;
+}
+
+.transparent-background {
+  background-color: transparent;
+}
+
+.primary-background {
+  background-color: $background;
+}
+
+@media (max-width: 992px) {
+  html, body {
+    font-size: 20px;
+  }
+}

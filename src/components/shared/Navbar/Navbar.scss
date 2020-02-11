@@ -1,0 +1,106 @@
+@import '../../../assets/styles/variables';
+
+.navbar-container {
+    height: $navbar-height;
+    font-size: .9rem;
+    padding-left: 8px;
+
+    &__logo-img {
+        filter: invert(1);
+        width:35px; 
+        height:35px;
+    }
+
+    &__logo-link {
+        pointer-events: none;
+    }
+
+    &__logo-text {
+        
+        &-1 {
+            text-transform: uppercase;
+        }
+        
+        &-2 {
+            font-family: 'Atma', cursive;
+            margin-top: -0.6rem;
+        }
+    }
+}
+
+.nav-item {
+    position: relative;
+      
+    &::after {
+        display: block;
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 0;
+        height: 3px;
+        background-color: $font-contrast;
+        transition: width .4s cubic-bezier(0.79, 0.14, 0.16, 0.86);
+    }
+    
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        &::after {
+            width: 100%;
+            left: 0;
+            right: auto;
+        }
+    }
+
+    .nav-link {
+        background: linear-gradient(to right, $contrast-color 50%, $secondary 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: background-position .5s ease-in-out;
+        height: 100%;
+        line-height: 2.4rem;
+        padding-left: 10px;
+
+        &:hover {
+            background-position: left bottom;
+            color: white !important;
+            transition: color background-position .5s ease-in;
+    
+        }
+    }
+}
+
+.selected-link {
+    position: relative;
+    color: white !important;
+    font-weight: bolder;
+
+    &::after {
+        display: block;
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left:0;
+        right: auto;
+        height: 3px;
+        background-color: $font-contrast;
+    
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-container {
+      height: fit-content !important;
+    
+        &__logo-link {
+            pointer-events: initial;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }    
+    }
+}

@@ -1,0 +1,41 @@
+@import '../../assets/styles/variables';
+
+.cool-sites-container {
+    min-height: $min-height;
+
+    &__card {
+        background: transparent;
+        height: 100%;
+        font-size: 100%;
+    }
+
+    &__carousel {
+        margin-top: 9px;
+    }
+
+    &__img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    &__text {
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+        display: -webkit-box; 
+        line-height: 16px;  
+        max-height: 48px;      
+          
+        /* The number of lines to be displayed */ 
+        -webkit-line-clamp: 3;  
+        -webkit-box-orient: vertical; 
+    }
+
+    &__icon {
+        font-size: 1.8rem;
+    }
+}
+
+/*Override of react-bootstrap library*/
+.card-footer {
+    padding: 0 .75rem 1.25rem;
+}

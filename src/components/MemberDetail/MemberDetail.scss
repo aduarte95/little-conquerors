@@ -1,0 +1,33 @@
+@import '../../assets/styles/variables';
+
+.member-container{
+    margin-top: 2%;
+
+    &__img {
+        max-width: 25%;
+        min-width: 15%;
+    }
+    
+    &__info-chart {
+        width: 20%;
+        position: absolute;
+        top: 35%;
+        left: 10%;
+    }
+
+    &__member-name {
+        text-transform: capitalize;
+        font-weight: bolder;
+        color: contrast;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .member-container{
+    
+        &__info {
+            top: auto;
+        }
+    }
+}

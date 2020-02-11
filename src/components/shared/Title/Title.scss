@@ -1,0 +1,10 @@
+@import '../../../assets/styles/variables';
+
+.title {
+      color: white;
+      text-align: center;
+      margin: $title-top-margin 0;
+      text-transform: capitalize;
+      font-weight: bolder;
+}
+
